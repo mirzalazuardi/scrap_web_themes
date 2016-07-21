@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @post.title %>
+</p>
+
+<p>
+  <strong>Excerpt:</strong>
+  <%= @post.excerpt %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @post.content %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @post.image %>
+</p>
+
+<p>
+  <strong>Date post:</strong>
+  <%= @post.date_post %>
+</p>
+
+<p>
+  <strong>Download1:</strong>
+  <%= @post.download1 %>
+</p>
+
+<p>
+  <strong>Download2:</strong>
+  <%= @post.download2 %>
+</p>
+
+<p>
+  <strong>Tag:</strong>
+  <%= @post.tag %>
+</p>
+
+<p>
+  <strong>Cat1:</strong>
+  <%= @post.cat1 %>
+</p>
+
+<p>
+  <strong>Cat2:</strong>
+  <%= @post.cat2 %>
+</p>
+
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back', posts_path %>
