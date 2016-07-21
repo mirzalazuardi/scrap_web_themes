@@ -48,3 +48,4 @@ end
 gem 'mini_magick', '3.8.0'
 gem 'carrierwave' 
 gem 'pry-byebug'
+gem 'kaminari'
